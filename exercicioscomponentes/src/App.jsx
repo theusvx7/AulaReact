@@ -1,35 +1,45 @@
-import Exemplo1  from "./componentes/exemplo1"
-import Exercicio1 from "./componentes/exercicio1"
-import Exercicio2 from "./componentes/exercicio2"
-import Exercicio3 from "./componentes/exercico3"
-
+import Exemplo1 from "./Exemplo1";
+import Exercicio1 from "./Exercicio1";
+import Exercicio2 from "./Exercicio2";
+import Exercicio3 from "./Exercicio3";
+import Exercicio4 from "./Exercicio4";
+import Exercicio6 from "./Exercicio6";
+import Exercicio7 from "./Exercicio7";
 export default function App(){
 
-  return(
+
+  return (
     <div>
-      <h1> Exercicios de Componente</h1>
+      <h1>Exemplo 1 </h1>
+      <Exemplo1 n1={10} n2={20}/>
+      <Exemplo1 n1={15} n2={2.2}/>
+      <hr />
 
-      <h3> Chamada para o Exemplo 1 </h3>
-      <Exemplo1 numero1={8} numero2={2} />
-      <Exemplo1 numero1={10} numero2={22} />
-      <Exemplo1 numero1={7.5} numero2={5.8} />
-      <Exemplo1 numero1={-58} numero2={65} />
-<hr />
-      <h3> Chamada para o Exercicio 1 </h3>
-    <Exercicio1 fah={100} />
-    <Exercicio1 fah={50} />
-    <Exercicio1 fah={32} />
+      <h1> Exercicio 1</h1>
+      <Exercicio1 n1={10}/>
+      <Exercicio1 n1={5}/>
+      <hr />
 
-    <hr />
+      <h1> Exercicio 2 </h1>
+      <Exercicio2 temp = {32}/>
+      <hr />
 
-    <h3>Chamada para o exercicio 2 </h3>
-    <Exercicio2 peso={80} altura = {1.80} />
-    <Exercicio2 peso={60} altura = {1.60} />
-<hr />
+      <h1> Exercicio 3</h1>
+      <Exercicio3 valor={20} taxa={10} tempo={21}/>
+      <hr />
 
-<h3>  Chamada para o exercicio 3</h3>
-<Exercicio3 valor={100} taxa={10} tempo={24} />
+      <h1> Exercicio 4</h1>
+      <Exercicio4 base={10} altura={10} />
+      <hr />
 
-    </div> 
+  <h1> Exercicio 6</h1>
+      <Exercicio6 quantidade={2} preco={10} />
+      <hr />
+
+      <h1> Exercicio 7</h1>
+      <Exercicio7 nota1={6} nota2={7} nota3={10} />
+      <hr />
+
+    </div>
   )
 }
