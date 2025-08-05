@@ -1,5 +1,5 @@
 import {BrowserRouter, Routes, Route} from "react-router-dom";
-import Home from ./Paginas/Home;
+import Home from "./Paginas/Home";
 import SaoPaulo from "./Paginas/SaoPaulo";
 export default function App()
 {
