@@ -1,15 +1,15 @@
-export default function Exercicio4()
+export default function Exercicio6()
 {
     return(
         <div>
-            <h1>Exercício 4</h1>
+            <h1>Exercício 6</h1>
             <div className="conteudo">
             
             <form>
-          <p>digite o valor da base:<br  />
+          <p>digite a quantidade:<br  />
           <input type="text"/>
           </p>
-          <p>digite a taxa da altura:<br  />
+          <p>digite o preço:<br  />
           <input type="text"/>
           </p>
      
