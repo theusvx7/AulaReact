@@ -33,8 +33,10 @@ export default function App() {
                 <Route path="/exercicio8" element={<Exercicio8/>}/>
                 <Route path="/exercicio9" element={<Exercicio9/>}/>
                 <Route path="/exercicio10" element={<Exercicio10/>}/>
+                
 
             </Routes>
         </BrowserRouter>
     );
 }
+//kkkkk
