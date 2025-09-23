@@ -1,5 +1,9 @@
+import { useState } from "react";
 export default function Exercicio1()
 {
+  const[quadrado,setQuadrado] = useState ();
+  const [cubo,setCubo] = useState ();
+  const[resultado, setResultado] =useState();
     return(
         <div>
             <h1>Exercício 1</h1>
